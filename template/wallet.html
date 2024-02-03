@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Nafton - NFT Portfolio HTML Template</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <!-- Preloader -->
+
+     <!-- Login Area -->
+    <div class="login-area">
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <!-- Login tab Area -->
+                        <div class="login-tab-area">
+                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                        aria-selected="true">Existing User</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-profile" type="button" role="tab"
+                                        aria-controls="pills-profile" aria-selected="false">New User</button>
+                                </li>
+                            </ul>
+                            <!-- Tab Content -->
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                    aria-labelledby="pills-home-tab">
+                                    <div class="modal-body">
+                                        <h5 class="modal-title" id="exampleModalLabel"><i
+                                                class="far fa-sign-in"></i>Login
+                                        </h5>
+                                        <form>
+                                            <div class="mb-30">
+                                                <label for="recipient-name2" class="col-form-label">Usernamae</label>
+                                                <input type="text" class="form-control focus-input100"
+                                                    id="recipient-name2" placeholder="Type Username">
+                                            </div>
+                                            <div>
+                                                <label for="recipient-name" class="col-form-label"><span>Password</span>
+                                                    <a class="forgot-btn" href="#">Forgot</a></label>
+                                                <input type="text" class="form-control" id="recipient-name"
+                                                    placeholder="Type Password">
+                                            </div>
+                                        </form>
+
+                                        <!-- Button -->
+                                        <button type="button" class="login-submit">Login</button>
+
+                                        <!-- Other Sign Up -->
+                                        <div class="other-sign-up-area">
+                                            <p>Or Sign Up Using</p>
+                                            <ul class="other-sign-list">
+                                                <li><a href="#"><img src="img/icon-img/11.png" alt=""></a></li>
+                                                <li><a href="#"><img src="img/icon-img/12.png" alt=""></a></li>
+                                                <li><a href="#"><img src="img/icon-img/13.png" alt=""></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                                    aria-labelledby="pills-profile-tab">
+                                    <div class="modal-body">
+                                        <h5 class="modal-title" id="exampleModalLabel2"><i
+                                                class="far fa-sign-in"></i>New
+                                            Account
+                                        </h5>
+                                        <form>
+                                            <div class="mb-30">
+                                                <label for="recipient-name-3" class="col-form-label">Name</label>
+                                                <input type="text" class="form-control focus-input100"
+                                                    id="recipient-name-3" placeholder="Type Name">
+                                            </div>
+                                            <div class="mb-30">
+                                                <label for="recipient-name-4" class="col-form-label">Usernamae</label>
+                                                <input type="text" class="form-control focus-input100"
+                                                    id="recipient-name-4" placeholder="Type Username">
+                                            </div>
+                                            <div class="mb-30">
+                                                <label for="recipient-name-5" class="col-form-label">Email</label>
+                                                <input type="email" class="form-control focus-input100"
+                                                    id="recipient-name-5" placeholder="Type Email">
+                                            </div>
+                                            <div>
+                                                <label for="recipient-name-6"
+                                                    class="col-form-label-2"><span>Password</span></label>
+                                                <input type="password" class="form-control" id="recipient-name-6"
+                                                    placeholder="Type Password">
+                                            </div>
+                                        </form>
+
+                                        <!-- Button -->
+                                        <button type="button" class="login-submit">Login</button>
+
+                                        <!-- Other Sign Up -->
+                                        <div class="other-sign-up-area">
+                                            <p>Or Sign Up Using</p>
+                                            <ul class="other-sign-list">
+                                                <li><a href="#"><img src="img/icon-img/11.png" alt=""></a></li>
+                                                <li><a href="#"><img src="img/icon-img/12.png" alt=""></a></li>
+                                                <li><a href="#"><img src="img/icon-img/13.png" alt=""></a></li>
+                                            </ul>
+                                            <p class="already-account">Already have an Account? <a href="#">Sing In.</a>
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Login Area -->
+
+    <!-- header-start -->
+    <header class="site-header site-header--menu-right landing-1-menu site-header--absolute site-header--sticky">
+        <div class="container">
+            <nav class="navbar site-navbar">
+                <!-- Brand Logo-->
+                <div class="brand-logo">
+                    <a href="#">
+                        <img src="img/logo.png" alt="" class="dark-version-logo">
+                    </a>
+                </div>
+                <div class="menu-block-wrapper">
+                    <div class="menu-overlay"></div>
+                    <nav class="menu-block" id="append-menu-header">
+                        <div class="mobile-menu-head">
+                            <div class="go-back">
+                                <i class="fa fa-angle-left"></i>
+                            </div>
+                            <div class="current-menu-title"></div>
+                            <div class="mobile-menu-close">&times;</div>
+                        </div>
+                        <ul class="site-menu-main">
+                            <li class="nav-item nav-item-has-children">
+                                <a href="#" class="nav-link-item drop-trigger">Home <i class="fas fa-angle-down"></i>
+                                </a>
+                                <ul class="sub-menu" id="submenu-9">
+                                    <li class="sub-menu--item">
+                                        <a href="index.html">Home- 1</a>
+                                    </li>
+                                    <li class="sub-menu--item">
+                                        <a href="index-2.html">Home- 2</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="about.html" class="nav-link-item">About</a>
+                            <li class="nav-item nav-item-has-children">
+                                <a href="#" class="nav-link-item drop-trigger">Pages <i class="fas fa-angle-down"></i>
+                                </a>
+                                <ul class="sub-menu" id="submenu-10">
+                                    <li class="sub-menu--item">
+                                        <a href="create-nft.html">Create Nft</a>
+                                    </li>
+                                    <li class="sub-menu--item">
+                                        <a href="roadmap.html">Roadmap</a>
+                                    </li>
+                                    <li class="sub-menu--item">
+                                        <a href="team.html">Team</a>
+                                    </li>
+                                    <li class="sub-menu--item">
+                                        <a href="wallet.html">Wallet</a>
+                                    </li>
+                                    <li class="sub-menu--item">
+                                        <a href="faq.html">Faq</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li> <a href="collection.html" class="nav-link-item">Collection</a></li>
+                            <li class="nav-item nav-item-has-children">
+                                <a href="#" class="nav-link-item drop-trigger">Blog <i class="fas fa-angle-down"></i>
+                                </a>
+                                <ul class="sub-menu" id="submenu-11">
+                                    <li class="sub-menu--item">
+                                        <a href="blog-grid.html">Blog</a>
+                                    </li>
+                                    <li class="sub-menu--item">
+                                        <a href="blog-details.html">Blog Details</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li> <a href="contact.html" class="nav-link-item">Contact</a></li>
+                            <li class="nav-item nav-item-has-children">
+                                <a href="#" class="nav-link-item drop-trigger">USA <i class="fas fa-angle-down"></i>
+                                </a>
+                                <ul class="sub-menu" id="submenu-22">
+                                    <li class="sub-menu--item">
+                                        <a href="#">UK</a>
+                                    </li>
+                                    <li class="sub-menu--item">
+                                        <a href="#">IND</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-link-item"><button type="button" class="sign-btn" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal" data-bs-whatever="@mdo"><img
+                                        src="img/icon-img/10.png" alt=""> Login</button></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- mobile menu trigger -->
+                <div class="mobile-menu-trigger">
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- header-end -->
+
+    <!-- Breadcrumb Area -->
+    <div class="breadcrumb-area" style="background-image: url(img/bg-img/bg-shape-2.png);">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center justify-content-center">
+                <div class="col-lg-5">
+                    <div class="breadcrumb-title text-center">
+                        <h2>Wallet</h2>
+                        <ul class="breadcrumb-list">
+                            <li>Home</li>
+                            <li><i class="fas fa-angle-double-right"></i></li>
+                            <li>Wallet</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb Area -->
+
+    <!-- Wallet Area -->
+    <div class="wallet-area two bg-gray-cu section-padding-100-50">
+        <div class="container">
+            <div class="row">
+                <!-- Single Wallet Area -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="single-wallet-area two">
+                        <!-- Image -->
+                        <div class="wallet-image">
+                            <img src="img/icon-img/16.png" alt="">
+                        </div>
+
+                        <!-- Content text -->
+                        <div class="wallet-content-text">
+                            <h4><a href="#">Metamask</a></h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quisquam, numquam ab deleniti
+                                ipsam fugiat.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Wallet Area -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="single-wallet-area two">
+                        <!-- Image -->
+                        <div class="wallet-image">
+                            <img src="img/icon-img/17.png" alt="">
+                        </div>
+
+                        <!-- Content text -->
+                        <div class="wallet-content-text">
+                            <h4><a href="#">Bitski</a></h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quisquam, numquam ab deleniti
+                                ipsam fugiat.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Wallet Area -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="single-wallet-area two">
+                        <!-- Image -->
+                        <div class="wallet-image">
+                            <img src="img/icon-img/18.png" alt="">
+                        </div>
+
+                        <!-- Content text -->
+                        <div class="wallet-content-text">
+                            <h4><a href="#">Fortmatic</a></h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quisquam, numquam ab deleniti
+                                ipsam fugiat.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Wallet Area -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="single-wallet-area two">
+                        <!-- Image -->
+                        <div class="wallet-image">
+                            <img src="img/icon-img/19.png" alt="">
+                        </div>
+
+                        <!-- Content text -->
+                        <div class="wallet-content-text">
+                            <h4><a href="#">Authereum</a></h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quisquam, numquam ab deleniti
+                                ipsam fugiat.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Wallet Area -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="single-wallet-area two">
+                        <!-- Image -->
+                        <div class="wallet-image">
+                            <img src="img/icon-img/20.png" alt="">
+                        </div>
+
+                        <!-- Content text -->
+                        <div class="wallet-content-text">
+                            <h4><a href="#">Fortmatic</a></h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quisquam, numquam ab deleniti
+                                ipsam fugiat.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Wallet Area -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="single-wallet-area two">
+                        <!-- Image -->
+                        <div class="wallet-image">
+                            <img src="img/icon-img/21.png" alt="">
+                        </div>
+
+                        <!-- Content text -->
+                        <div class="wallet-content-text">
+                            <h4><a href="#">Fortmatic</a></h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quisquam, numquam ab deleniti
+                                ipsam fugiat.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Wallet Area -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="single-wallet-area two">
+                        <!-- Image -->
+                        <div class="wallet-image">
+                            <img src="img/icon-img/19.png" alt="">
+                        </div>
+
+                        <!-- Content text -->
+                        <div class="wallet-content-text">
+                            <h4><a href="#">Authereum</a></h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quisquam, numquam ab deleniti
+                                ipsam fugiat.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Wallet Area -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="single-wallet-area two">
+                        <!-- Image -->
+                        <div class="wallet-image">
+                            <img src="img/icon-img/20.png" alt="">
+                        </div>
+
+                        <!-- Content text -->
+                        <div class="wallet-content-text">
+                            <h4><a href="#">Fortmatic</a></h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quisquam, numquam ab deleniti
+                                ipsam fugiat.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Wallet Area -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="single-wallet-area two">
+                        <!-- Image -->
+                        <div class="wallet-image">
+                            <img src="img/icon-img/17.png" alt="">
+                        </div>
+
+                        <!-- Content text -->
+                        <div class="wallet-content-text">
+                            <h4><a href="#">Bitski</a></h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quisquam, numquam ab deleniti
+                                ipsam fugiat.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Wallet Area -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="single-wallet-area two">
+                        <!-- Image -->
+                        <div class="wallet-image">
+                            <img src="img/icon-img/18.png" alt="">
+                        </div>
+
+                        <!-- Content text -->
+                        <div class="wallet-content-text">
+                            <h4><a href="#">Fortmatic</a></h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quisquam, numquam ab deleniti
+                                ipsam fugiat.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Wallet Area -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="single-wallet-area two">
+                        <!-- Image -->
+                        <div class="wallet-image">
+                            <img src="img/icon-img/19.png" alt="">
+                        </div>
+
+                        <!-- Content text -->
+                        <div class="wallet-content-text">
+                            <h4><a href="#">Authereum</a></h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quisquam, numquam ab deleniti
+                                ipsam fugiat.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Wallet Area -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="single-wallet-area two">
+                        <!-- Image -->
+                        <div class="wallet-image">
+                            <img src="img/icon-img/20.png" alt="">
+                        </div>
+
+                        <!-- Content text -->
+                        <div class="wallet-content-text">
+                            <h4><a href="#">Fortmatic</a></h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quisquam, numquam ab deleniti
+                                ipsam fugiat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Wallet Area -->
+
+    <!-- Footer Contact Area -->
+    <div class="footer-contact-area bg-img bg-overlay  bg-fixed section-padding-100"
+        style="background-image: url(img/bg-img/bg-shape.jpg);">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="partner-slider owl-carousel mb-100">
+                        <!-- Single Slider -->
+                        <div class="single-slider">
+                            <div class="parnet-img">
+                                <img src="img/icon-img/16.png" alt="Image" />
+                            </div>
+                        </div>
+                        <!-- Single Slider -->
+                        <div class="single-slider">
+                            <div class="parnet-img">
+                                <img src="img/icon-img/17.png" alt="Image" />
+                            </div>
+                        </div>
+
+                        <!-- Single Slider -->
+                        <div class="single-slider">
+                            <div class="parnet-img">
+                                <img src="img/icon-img/18.png" alt="Image" />
+                            </div>
+                        </div>
+
+                        <!-- Single Slider -->
+                        <div class="single-slider">
+                            <div class="parnet-img">
+                                <img src="img/icon-img/19.png" alt="Image" />
+                            </div>
+                        </div>
+
+                        <!-- Single Slider -->
+                        <div class="single-slider">
+                            <div class="parnet-img">
+                                <img src="img/icon-img/20.png" alt="Image" />
+                            </div>
+                        </div>
+
+                        <!-- Single Slider -->
+                        <div class="single-slider">
+                            <div class="parnet-img">
+                                <img src="img/icon-img/21.png" alt="Image" />
+                            </div>
+                        </div>
+
+                        <!-- Single Slider -->
+                        <div class="single-slider">
+                            <div class="parnet-img">
+                                <img src="img/icon-img/17.png" alt="Image" />
+                            </div>
+                        </div>
+
+                        <!-- Single Slider -->
+                        <div class="single-slider">
+                            <div class="parnet-img">
+                                <img src="img/icon-img/19.png" alt="Image" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <!-- Footer Widget -->
+                <div class="col-sm-5 col-lg-4">
+                    <div class="footer-single-widget mb-50">
+                        <div class="footer-logo">
+                            <a href="#"><img src="img/logo.png" alt="Image" /></a>
+                        </div>
+                        <div class="f-add-info mt-30">
+                            <p>Location - <span>Houston, USA 14</span></p>
+                            <p>Phone - <a href="#">01258452</a></p>
+                            <p>E-mail - <a href="#">example12@gmail.com</a></p>
+                        </div>
+                        <div class="footer-socila-icon">
+                            <a href="#"><i class="bi bi-facebook"></i></a>
+                            <a href="#"><i class="bi bi-twitter"></i></a>
+                            <a href="#"><i class="bi bi-instagram"></i></a>
+                            <a href="#"><i class="bi bi-whatsapp"></i></a>
+                        </div>
+                        <!-- Contact Form -->
+                        <div class="subscribe-form-area d-flex align-items-center mt-50">
+                            <input type="email" class="form-control" placeholder="info@mail.com">
+                            <button type="submit" class="btn"><i class="bi bi-send"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-7 col-lg-8">
+                    <div class="row">
+                        <!-- Footer Widget -->
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-single-widget first mb-50">
+                                <h4>Quick links</h4>
+                                <ul>
+                                    <li><a href="#">Help Center</a></li>
+                                    <li><a href="#">Terms-condition</a></li>
+                                    <li><a href="#">Privacy-policy</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                    <li><a href="#">Newsletter</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Footer Widget -->
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-single-widget second mb-50">
+                                <h4>Marketplace</h4>
+                                <ul>
+                                    <li><a href="#">Authors</a></li>
+                                    <li><a href="#">Collection</a></li>
+                                    <li><a href="#">Author Profile</a></li>
+                                    <li><a href="#">Create item</a></li>
+                                    <li><a href="#">Create Api</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Footer Widget -->
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-single-widget third mb-50">
+                                <h4>Company</h4>
+                                <ul>
+                                    <li><a href="#">All Nfts</a></li>
+                                    <li><a href="#">Collectibless</a></li>
+                                    <li><a href="#">Author Profile</a></li>
+                                    <li><a href="#">Sports</a></li>
+                                    <li><a href="#">Tranding</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Footer Widget -->
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-single-widget four mb-50">
+                                <h4>Community</h4>
+                                <ul>
+                                    <li><a href="#">NFT Token</a></li>
+                                    <li><a href="#">Voting</a></li>
+                                    <li><a href="#">Music</a></li>
+                                    <li><a href="#">Discussion </a></li>
+                                    <li><a href="#">Tranding</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Copy Right Area -->
+        <div class="copy-right-area">
+            <div class="container">
+                <div class="row">
+                    <!-- Copy Content -->
+                    <div class="col-md-6">
+                        <div class="copy-right-content-text">
+                            <p>© Copyright & Develop By Theme-Zome (2022).</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="copy-right-content-text">
+                            <ul class="d-flex flex-wrap justify-content-end">
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms &amp; Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copy Right Area -->
+    </div>
+    <!-- Footer Contact Area -->
+
+
+    <!-- JS here -->
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/aos.js"></script>
+
+    <!-- Custom js-->
+    <script src="js/main-menu.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
